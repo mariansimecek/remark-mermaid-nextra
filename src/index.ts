@@ -1,7 +1,7 @@
 import type { Root } from "mdast";
 import type { Plugin } from "unified";
 import { visit } from "unist-util-visit";
-const FILE_PATH = "../nextra-mermaid/dist"; //TODO: this package name
+const FILE_PATH = "remark-mermaid-nextra"; 
 
 const MERMAID_IMPORT_AST = {
   type: "mdxjsEsm" as "inlineCode",

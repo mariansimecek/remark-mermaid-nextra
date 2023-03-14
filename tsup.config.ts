@@ -3,7 +3,7 @@ import tsconfig from "./tsconfig.json";
 
 export default defineConfig({
   format: "esm",
-    dts: true, 
+  dts: true,
   target: tsconfig.compilerOptions.target as Options["target"],
   entry: {
     index: "src/index.ts",

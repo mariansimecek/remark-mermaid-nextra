@@ -2,6 +2,11 @@
 
 Remark plugin for rendering mermaid diagrams, should work in nextra
 
+# Instalation
+
+`yarn add remark-mermaid-nextra`
+`npm i remark-mermaid-nextra`
+
 # Motivation
 
 I could not find any way to use Mermaid diagrams in nextra.
@@ -26,10 +31,9 @@ const withNextra = nextra({
 
 \`\`\`mermaid
 graph LR
-    A[Square Rect] -- Link text --> B((Circle))
-    A --> C(Round Rect)
-    B --> D{Rhombus}
-    C --> D
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
 \`\`\`
-
 ```
