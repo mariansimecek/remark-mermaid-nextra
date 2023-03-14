@@ -1,0 +1,62 @@
+Arguments: 
+  /home/marian-simecek/.nvm/versions/node/v16.19.0/bin/node /home/marian-simecek/.nvm/versions/node/v16.19.0/bin/yarn
+
+PATH: 
+  /home/marian-simecek/.bun/bin:/home/marian-simecek/.nvm/versions/node/v16.19.0/bin:/home/marian-simecek/bin:/usr/local/bin:/home/marian-simecek/.local/share/nvim/mason/bin:/home/marian-simecek/.bun/bin:/home/marian-simecek/.nvm/versions/node/v16.19.0/bin:/home/marian-simecek/bin:/usr/local/bin:/home/marian-simecek/.local/kitty.app/bin:/home/marian-simecek/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/root/scripts:/home/marian-simecek/.local/bin:/usr/local/go/bin:/home/marian-simecek/.local/share/bob/nvim-bin:/home/marian-simecek/.deno/bin:/home/marian-simecek/.dotnet/:/home/marian-simecek/.dotnet/tools:/home/marian-simecek/.dotnet:/home/marian-simecek/.local/share/OmniSharp:/home/marian-simecek/.local/share/netcoredbg:/root/scripts:/home/marian-simecek/.local/bin:/usr/local/go/bin:/home/marian-simecek/.local/share/bob/nvim-bin:/home/marian-simecek/.deno/bin:/home/marian-simecek/.dotnet/:/home/marian-simecek/.dotnet/tools:/home/marian-simecek/.dotnet:/home/marian-simecek/.local/share/OmniSharp:/home/marian-simecek/.local/share/netcoredbg
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/marian-simecek/dev/anafra/ansea/docs-next/nextra-mermaid/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /home/marian-simecek/.nvm/versions/node/v16.19.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/marian-simecek/.nvm/versions/node/v16.19.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/marian-simecek/.nvm/versions/node/v16.19.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "remark-mermaid-nextra",
+      "version": "0.0.1",
+      "main": "./dist/index.js",
+      "module": "./dist/index.mjs",
+      "types": "./dist/index.d.ts",
+      "files": [
+          "dist"
+      ],
+      "scripts": {
+          "build": "tsup"
+      },
+      "license": "MIT",
+      "dependencies": {
+          "mermaid": "^10.0.2",
+          "unist-util-visit": "^4.1.2"
+      },
+      "devDependencies": {
+          "@types/mdast": "^3.0.10",
+          "unified": "^10.1.2",
+          "tsup": "^6.6.3",
+          "@types/react": "^18.0.12",
+          "@types/react-dom": "^18.0.5",
+          "react": "^18.2.0",
+          "react-dom": "^18.1.0",
+          "typescript": "^4.7.3"
+      },
+      "peerDependencies": {
+          "react": "^16.8 || ^17 || ^18",
+          "react-dom": "^16.8 || ^17 || ^18"
+      
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
