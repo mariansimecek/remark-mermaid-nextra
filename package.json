@@ -1,6 +1,10 @@
 {
     "name": "remark-mermaid-nextra",
     "version": "0.0.2",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mariansimecek/remark-mermaid-nextra.git"
+    },
     "main": "dist/index",
     "exports": {
         ".": {
