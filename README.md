@@ -14,15 +14,15 @@ I take their code and use only necessary parts to make plugin works.
 // next.config.mjs
 
 const withNextra = nextra({
-    ...
     mdxOptions: {
         remarkPlugins: [remarkMermaid],
     }
     ...
 
+```
+
 ```mdx
 // page.mdx
-
 
 \`\`\`mermaid
 graph LR
