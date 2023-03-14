@@ -1,6 +1,6 @@
 # remark-mermaid-nextra
 
-Remark plugin for rendering mermaid diagrams, should work in nextra
+Remark plugin for rendering mermaid diagrams, should work in [nextra](https://github.com/shuding/nextra)
 
 # Instalation
 
