@@ -2,6 +2,10 @@
 
 Remark plugin for rendering mermaid diagrams, should work in [nextra](https://github.com/shuding/nextra)
 
+Note that this is an ESM package!
+Make sure you are using ESM in your Next configuration before attempting to use
+this package.
+
 # Instalation
 
 `yarn add remark-mermaid-nextra` \
@@ -18,12 +22,13 @@ I take their code and use only necessary parts to make plugin works.
 ```ts
 // next.config.mjs
 
+import { remarkMermaid } from 'remark-mermaid-nextra';
+
 const withNextra = nextra({
     mdxOptions: {
         remarkPlugins: [remarkMermaid],
     }
     ...
-
 ```
 
 ~~~mdx
