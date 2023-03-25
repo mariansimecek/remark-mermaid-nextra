@@ -6,18 +6,18 @@ Note that this is an ESM package!
 Make sure you are using ESM in your Next configuration before attempting to use
 this package.
 
-# Instalation
+## Instalation
 
 `yarn add remark-mermaid-nextra` \
 `npm i remark-mermaid-nextra`
 
-# Motivation
+## Motivation
 
 I could not find any way to use Mermaid diagrams in nextra.
 Then I found [The Guild Component Library](https://github.com/the-guild-org/docs). They have solution to make it works.
 I take their code and use only necessary parts to make plugin works.
 
-# Usage
+## Usage
 
 ```ts
 // next.config.mjs
