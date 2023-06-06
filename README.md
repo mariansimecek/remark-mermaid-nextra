@@ -1,5 +1,8 @@
 # remark-mermaid-nextra
 
+**Deprecated package**
+> Nextra now supports rendering mermaid diagrams natively, it uses this awesome package [`@theguild/remark-mermaid`](https://www.npmjs.com/package/@theguild/remark-mermaid). Therefore, this package will no longer be updated.
+
 Remark plugin for rendering mermaid diagrams, should work in [nextra](https://github.com/shuding/nextra)
 
 Note that this is an ESM package!
